@@ -162,9 +162,9 @@ Neste tópico, realizei as requisições mais comuns no endpoint /posts e analis
 
 - Utilizando o **GET** em /posts, para a automatização de testes de validação, foi utilizado a seguinte sintaxe:
 
-pm.test("nome do teste", function () {
-pm.response.to.have.status(200);
-});
+  pm.test("nome do teste", function () {
+  pm.response.to.have.status(200);
+  });
 
 - Note que, tendo um status que valida o status code, se ele for igual o esperado o resultado é positivo para o teste.
 
