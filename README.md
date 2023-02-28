@@ -113,7 +113,7 @@ Neste tópico, realizei as requisições mais comuns no endpoint /posts e analis
 
     {
     "title": "Meu novo título",<br>
-    "id": 1<br>
+    "id": 1
     }
 
 ## **PATCH em /posts/{id}**
